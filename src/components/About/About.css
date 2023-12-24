@@ -62,6 +62,7 @@
   padding: 1em;
   width: 80%;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
 }
 
@@ -125,12 +126,12 @@
   }
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 380px) {
   .a {
     margin-top: 13em;
   }
   .a-right {
-    margin-top: 5em;
+    margin-top: 6em;
   }
   .a-sub {
     margin: 20px 0px;

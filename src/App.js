@@ -3,6 +3,7 @@ import Intro from "../src/components/intro/Intro";
 import About from "./components/About/About";
 import Contact from "./components/Contact/Contact";
 import ProductList from "./components/ProductList/ProductList";
+import Skills from "./components/Skills/Skills";
 import Toggle from "./components/Toggle/Toggle";
 import { ThemeContext } from "./Context";
 
@@ -20,6 +21,7 @@ function App() {
       <Toggle />
       <Intro />
       <About />
+      <Skills />
       <ProductList />
       <Contact />
     </div>

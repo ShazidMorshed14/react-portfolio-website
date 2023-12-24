@@ -8,11 +8,18 @@
 }
 
 .p-browser {
-  height: 20px;
+  height: 30px;
   background-color: rgb(243, 242, 242);
   display: flex;
+  justify-content: center;
   align-items: center;
   position: sticky;
+  z-index: 2;
+  text-align: center;
+  color: #333;
+}
+
+.heading-section {
   z-index: 2;
 }
 
