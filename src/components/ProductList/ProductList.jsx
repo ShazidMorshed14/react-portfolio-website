@@ -14,6 +14,8 @@ import Postman from "../../img/postman-ss.png";
 import RaksFlix from "../../img/raksflix-ss.png";
 import Socialite from "../../img/socialite-ss.png";
 import Bat from "../../img/bat-ss.png";
+import Tourningon from "../../img/tourningon.png";
+import Corporate from "../../img/corporate.png";
 
 const ProductList = () => {
   return (
@@ -36,28 +38,38 @@ const ProductList = () => {
         />
         <Product
           id="1"
-          src={oshary}
-          link="https://oshary.com/"
-          title="Oshary"
-        />
-        <Product
-          id="1"
-          src={Socialite}
-          link="https://socialite-75a29.web.app/"
-          title="Socialite"
-        />
-        <Product
-          id="1"
           src={Ostad}
           link="https://ostad-app-43edb.web.app/"
-          title="Ostad"
+          title="Learning Platform"
         />
+        <Product
+          id="2"
+          src={Tourningon}
+          link="https://tourningon.netlify.app/"
+          title="Tourningon"
+        />
+
         <Product
           id="2"
           src={c19}
           link="https://covid-19-tracker-14.web.app/"
           title="Covid Tracker"
         />
+
+        <Product
+          id="1"
+          src={Socialite}
+          link="https://socialite-75a29.web.app/"
+          title="Socialite"
+        />
+
+        <Product
+          id="1"
+          src={Corporate}
+          link="https://batapp-74b89.web.app/"
+          title="Corporate Portfolios"
+        />
+
         <Product
           id="2"
           src={RaksFlix}
@@ -65,10 +77,10 @@ const ProductList = () => {
           title="RaksFlix"
         />
         <Product
-          id="2"
-          src={Postman}
-          link="https://covid-19-tracker-14.web.app/"
-          title="Postman Clone"
+          id="1"
+          src={oshary}
+          link="https://oshary.com/"
+          title="Oshary"
         />
         <Product
           id="3"

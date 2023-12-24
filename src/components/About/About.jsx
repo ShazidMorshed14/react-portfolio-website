@@ -14,9 +14,10 @@ const About = () => {
       <div className="a-right">
         <h1 className="a-title">About Me</h1>
         <p className="a-sub">
-          I am a Full-Stack Developer.I have 1+ Year of professional experience
-          of working as a Software Engineer.I like to design modern and fully
-          responsive websites using modern technologies like React, Redux, Node
+          I am a Full-Stack Developer. I have 2+ Year of professional experience
+          of working as a Software Engineer with big organizations like
+          BAT,Reckitt (Singapore) etc. I like to create modern and fully
+          functional websites using modern technologies like React, Redux, Node
           js , MySql or MongoDB etc.!
         </p>
         <div className="a-education" style={{ marginBottom: "5px" }}>

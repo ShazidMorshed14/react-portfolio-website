@@ -25,6 +25,14 @@ const Skills = () => {
         </div>
         <div>
           <img
+            src="https://img.icons8.com/fluency/48/nextjs.png"
+            className="a-language-images"
+            alt="no_img"
+          />
+          <h4>Next.js</h4>
+        </div>
+        <div>
+          <img
             src="https://img.icons8.com/fluency/48/null/node-js.png"
             className="a-language-images"
             alt="no_img"
@@ -54,6 +62,14 @@ const Skills = () => {
             alt="no_img"
           />
           <h4>MySQL</h4>
+        </div>
+        <div>
+          <img
+            src="https://img.icons8.com/color/48/postgreesql.png"
+            className="a-language-images"
+            alt="no_img"
+          />
+          <h4>PostgreSQL</h4>
         </div>
         <div>
           <img
@@ -94,6 +110,14 @@ const Skills = () => {
             alt="no_img"
           />
           <h4>SASS</h4>
+        </div>
+        <div>
+          <img
+            src="https://img.icons8.com/color/48/tailwindcss.png"
+            className="a-language-images"
+            alt="no_img"
+          />
+          <h4>Tailwind</h4>
         </div>
         <div>
           <img
