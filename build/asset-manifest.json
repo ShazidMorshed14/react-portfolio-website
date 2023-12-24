@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/ShazidPortfolioWebsite/static/css/main.5b302046.chunk.css",
-    "main.js": "/ShazidPortfolioWebsite/static/js/main.4a8088d8.chunk.js",
-    "main.js.map": "/ShazidPortfolioWebsite/static/js/main.4a8088d8.chunk.js.map",
+    "main.js": "/ShazidPortfolioWebsite/static/js/main.2a3efa22.chunk.js",
+    "main.js.map": "/ShazidPortfolioWebsite/static/js/main.2a3efa22.chunk.js.map",
     "runtime-main.js": "/ShazidPortfolioWebsite/static/js/runtime-main.509841f8.js",
     "runtime-main.js.map": "/ShazidPortfolioWebsite/static/js/runtime-main.509841f8.js.map",
     "static/js/2.3ab71af3.chunk.js": "/ShazidPortfolioWebsite/static/js/2.3ab71af3.chunk.js",
@@ -13,7 +13,6 @@
     "static/css/main.5b302046.chunk.css.map": "/ShazidPortfolioWebsite/static/css/main.5b302046.chunk.css.map",
     "static/js/2.3ab71af3.chunk.js.LICENSE.txt": "/ShazidPortfolioWebsite/static/js/2.3ab71af3.chunk.js.LICENSE.txt",
     "static/media/algogram.cb1ce9e0.png": "/ShazidPortfolioWebsite/static/media/algogram.cb1ce9e0.png",
-    "static/media/bat-ss.6f04bc0e.png": "/ShazidPortfolioWebsite/static/media/bat-ss.6f04bc0e.png",
     "static/media/coffeshop.11199169.png": "/ShazidPortfolioWebsite/static/media/coffeshop.11199169.png",
     "static/media/corporate.ddb94cc3.png": "/ShazidPortfolioWebsite/static/media/corporate.ddb94cc3.png",
     "static/media/covid-19 tracker.6c1a138e.png": "/ShazidPortfolioWebsite/static/media/covid-19 tracker.6c1a138e.png",
@@ -22,11 +21,9 @@
     "static/media/netflix-ss.03251369.png": "/ShazidPortfolioWebsite/static/media/netflix-ss.03251369.png",
     "static/media/oshary.049e4603.png": "/ShazidPortfolioWebsite/static/media/oshary.049e4603.png",
     "static/media/ostad-ss.d1c111c5.png": "/ShazidPortfolioWebsite/static/media/ostad-ss.d1c111c5.png",
-    "static/media/postman-ss.0b4a0a9d.png": "/ShazidPortfolioWebsite/static/media/postman-ss.0b4a0a9d.png",
     "static/media/raksflix-ss.a697bec1.png": "/ShazidPortfolioWebsite/static/media/raksflix-ss.a697bec1.png",
     "static/media/rehashcraft.c3d5c676.png": "/ShazidPortfolioWebsite/static/media/rehashcraft.c3d5c676.png",
     "static/media/restaurant.cf0c5444.png": "/ShazidPortfolioWebsite/static/media/restaurant.cf0c5444.png",
-    "static/media/rps.ac71edce.png": "/ShazidPortfolioWebsite/static/media/rps.ac71edce.png",
     "static/media/socialite-ss.511fb6a9.png": "/ShazidPortfolioWebsite/static/media/socialite-ss.511fb6a9.png",
     "static/media/tourningon.aff469f8.png": "/ShazidPortfolioWebsite/static/media/tourningon.aff469f8.png"
   },
@@ -34,6 +31,6 @@
     "static/js/runtime-main.509841f8.js",
     "static/js/2.3ab71af3.chunk.js",
     "static/css/main.5b302046.chunk.css",
-    "static/js/main.4a8088d8.chunk.js"
+    "static/js/main.2a3efa22.chunk.js"
   ]
 }

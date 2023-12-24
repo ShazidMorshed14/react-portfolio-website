@@ -3,13 +3,13 @@ import "./Intro.css";
 import Me from "../../img/my_img_blk_2.png";
 
 const Intro = () => {
-  function handleScroll() {
-    window.scroll({
-      top: document.body.offsetHeight,
-      left: 0,
-      behavior: "smooth",
-    });
-  }
+  // function handleScroll() {
+  //   window.scroll({
+  //     top: document.body.offsetHeight,
+  //     left: 0,
+  //     behavior: "smooth",
+  //   });
+  // }
 
   return (
     <div className="i">
@@ -30,11 +30,16 @@ const Intro = () => {
           <div className="i-desc">
             <a
               target="_blank"
+              rel="noreferrer"
               href="https://drive.google.com/drive/folders/1ZSIx0n4Rrboa9rqHlRORLrqksG8erWI_?usp=sharing"
             >
               <button className="btn-cv">Download CV</button>
             </a>
-            <a target="_blank" href="https://github.com/ShazidMorshed14">
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://github.com/ShazidMorshed14"
+            >
               <button className="btn-c">Github</button>
             </a>
           </div>

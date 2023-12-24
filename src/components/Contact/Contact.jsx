@@ -24,7 +24,7 @@ const Contact = () => {
       .then(
         (result) => {
           console.log(result.text);
-          //   setSend(true);
+          setSend(true);
           Swal.fire(
             "Response Sent!",
             "Thank You for your response!",
