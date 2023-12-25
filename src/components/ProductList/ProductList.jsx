@@ -30,7 +30,7 @@ const ProductList = () => {
           id="1"
           src={Netflix}
           //link="https://netflix-clone-f88e6.web.app/"
-          link="https://phenomenal-lollipop-ad6e3e.netlify.app/"
+          link="https://sazzflix.netlify.app/"
           title="Netflix Clone"
         />
         <Product
