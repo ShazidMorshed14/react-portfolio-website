@@ -1,6 +1,6 @@
-import React from "react";
-import "../About/About.css";
-import MeAbout from "../../img/me_about.jpg";
+import React from 'react';
+import '../About/About.css';
+import MeAbout from '../../img/me_about.jpg';
 
 const About = () => {
   return (
@@ -20,7 +20,7 @@ const About = () => {
           functional websites using modern technologies like React, Redux, Node
           js , MySql or MongoDB etc.!
         </p>
-        <div className="a-education" style={{ marginBottom: "5px" }}>
+        <div className="a-education" style={{ marginBottom: '5px' }}>
           <h2 className="a-title">Experience</h2>
           <p className="a-uni">Software Engineer (React and Node js)</p>
           <p>AventraConsultant Ltd.</p>

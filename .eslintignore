@@ -1,0 +1,6 @@
+build
+node_modules
+.github
+.husky
+package.json
+/src/components/intro/Intro.jsx

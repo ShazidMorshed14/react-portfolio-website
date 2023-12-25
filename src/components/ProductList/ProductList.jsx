@@ -18,7 +18,7 @@ const ProductList = () => {
   return (
     <div className="pl">
       <div className="pl-texts">
-        <h1 className="pl-header">Create & Inspire. It's Shazid</h1>
+        <h1 className="pl-header">Create & Inspire. It&apos;s Shazid</h1>
         <p className="pl-desc">
           Designing fully functional and responsive websites with modern tools
           like React js and Node js! Explore some of my projects and give

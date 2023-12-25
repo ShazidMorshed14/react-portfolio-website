@@ -1,7 +1,7 @@
 import React from "react";
 import "./Product.css";
 
-const Product = ({ id, src, link, title }) => {
+const Product = ({ src, link, title }) => {
   return (
     <div className="p">
       <div className="p-browser">
