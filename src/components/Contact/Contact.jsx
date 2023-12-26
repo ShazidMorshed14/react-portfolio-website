@@ -41,7 +41,7 @@ const Contact = () => {
       <div className="c-bg"></div>
       <div className="c-wrapper">
         <div className="c-left">
-          <h1 className="c-title">Let's discuss your project!</h1>
+          <h1 className="c-title">Let&apos;s discuss your project!</h1>
           <div className="c-info">
             <div className="c-info-item">
               <img
@@ -94,8 +94,8 @@ const Contact = () => {
         </div>
         <div className="c-right">
           <p className="c-desc">
-            <b> What's your idea?</b> I'm always ready to work on different
-            ideas! Let's build your imagination into reality!
+            <b> What&apos;s your idea?</b> I&apos;m always ready to work on
+            different ideas! Let&apos;s build your imagination into reality!
           </p>
           {send && <Model />}
           <form ref={formRef} onSubmit={handleSubmit}>
@@ -122,7 +122,7 @@ const Contact = () => {
               name="message"
               placeholder="Message"
               rows="5"
-            ></textarea>
+            />
             <button type="submit">Submit</button>
           </form>
         </div>

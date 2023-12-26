@@ -16,7 +16,8 @@ function App() {
       style={{
         backgroundColor: darkMode ? '#222' : 'white',
         color: darkMode ? 'white' : 'black',
-      }}>
+      }}
+    >
       <Toggle />
       <Intro />
       <About />
