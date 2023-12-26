@@ -11,6 +11,23 @@ const Intro = () => {
   //   });
   // }
 
+  const cv_file_url = 'http://localhost:3000/shazid_morshedul_haque_cv.pdf';
+
+  const downloadTemplateFile = (url) => {
+    fetch(url)
+      .then((response) => response.blob())
+      .then((blob) => {
+        const blobURL = window.URL.createObjectURL(new Blob([blob]));
+        const fileName = url.split('/').pop();
+        const aTag = document.createElement('a');
+        aTag.href = blobURL;
+        aTag.setAttribute('download', fileName);
+        document.body.appendChild(aTag);
+        aTag.click();
+        aTag.remove();
+      });
+  };
+
   return (
     <div className="i">
       <div className="i-left">
@@ -20,20 +37,19 @@ const Intro = () => {
           <div className="i-title">
             <div className="i-title-wrapper">
               <div className="i-title-item">Web Developer</div>
+              <div className="i-title-item">App Developer</div>
               <div className="i-title-item">UI/UX Designer</div>
               <div className="i-title-item">Musician</div>
               <div className="i-title-item">Content Creator</div>
-              <div className="i-title-item">Photographer</div>
             </div>
           </div>
 
           <div className="i-desc">
-            <a
-              target="_blank"
-              rel="noreferrer"
-              href="https://drive.google.com/drive/folders/1ZSIx0n4Rrboa9rqHlRORLrqksG8erWI_?usp=sharing">
-              <button className="btn-cv">Download CV</button>
-            </a>
+            <button
+              className="btn-cv"
+              onClick={() => downloadTemplateFile(cv_file_url)}>
+              Download CV
+            </button>
             <a
               target="_blank"
               rel="noreferrer"

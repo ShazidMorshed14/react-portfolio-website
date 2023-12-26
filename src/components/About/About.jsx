@@ -22,9 +22,16 @@ const About = () => {
         </p>
         <div className="a-education" style={{ marginBottom: '5px' }}>
           <h2 className="a-title">Experience</h2>
-          <p className="a-uni">Software Engineer (React and Node js)</p>
-          <p>AventraConsultant Ltd.</p>
-          <p>Dec 2021-Present</p>
+          <div style={{ margin: '0.5rem 0rem' }}>
+            <p className="a-uni">Software Engineer (Full Stack)</p>
+            <p>Manush Technologies Ltd.</p>
+            <p style={{ fontSize: 'small' }}>May 2023-Present</p>
+          </div>
+          <div style={{ margin: '0.5rem 0rem' }}>
+            <p className="a-uni">Software Engineer (React and Node js)</p>
+            <p>AventraConsultant Ltd.</p>
+            <p style={{ fontSize: 'small' }}>Dec 2021-Mar 2022</p>
+          </div>
         </div>
         <div className="a-education">
           <h2 className="a-title">Education</h2>
@@ -32,6 +39,7 @@ const About = () => {
             Ahsanullah University Of Science & Technology,Bangladesh
           </p>
           <p>B.Sc. in Computer Science & Engineering</p>
+          <p style={{ fontSize: 'small' }}>2017-2021</p>
         </div>
       </div>
     </div>
