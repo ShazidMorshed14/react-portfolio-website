@@ -1,9 +1,9 @@
-import React, { useContext, useRef, useState } from 'react';
 import emailjs from 'emailjs-com';
+import React, { useContext, useRef, useState } from 'react';
+import Swal from 'sweetalert2';
+import { ThemeContext } from '../../Context';
 import './Contact.css';
 import Model from './Model';
-import { ThemeContext } from '../../Context';
-import Swal from 'sweetalert2';
 
 const Contact = () => {
   const formRef = useRef();

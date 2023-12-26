@@ -1,14 +1,14 @@
-import React, { useContext } from "react";
-import "../Toggle/Toggle.css";
-import sun from "../../img/sun.png";
-import moon from "../../img/moon.png";
-import { ThemeContext } from "../../Context";
+import React, { useContext } from 'react';
+import { ThemeContext } from '../../Context';
+import moon from '../../img/moon.png';
+import sun from '../../img/sun.png';
+import '../Toggle/Toggle.css';
 
 const Toggle = () => {
   const theme = useContext(ThemeContext);
 
   const handleClick = () => {
-    theme.dispatch({ type: "TOGGLE" });
+    theme.dispatch({ type: 'TOGGLE' });
   };
   return (
     <div className="t">
@@ -17,8 +17,7 @@ const Toggle = () => {
       <div
         className="t-button"
         onClick={handleClick}
-        style={{ left: theme.state.darkMode ? 0 : 25 }}
-      ></div>
+        style={{ left: theme.state.darkMode ? 0 : 25 }}></div>
     </div>
   );
 };

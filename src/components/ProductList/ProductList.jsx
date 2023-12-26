@@ -1,18 +1,18 @@
-import React from "react";
-import algogram from "../../img/algogram.png";
-import coffeshop from "../../img/coffeshop.png";
-import Corporate from "../../img/corporate.png";
-import c19 from "../../img/covid-19 tracker.png";
-import Netflix from "../../img/netflix-ss.png";
-import oshary from "../../img/oshary.png";
-import Ostad from "../../img/ostad-ss.png";
-import RaksFlix from "../../img/raksflix-ss.png";
-import rehashcraft from "../../img/rehashcraft.png";
-import restaurant from "../../img/restaurant.png";
-import Socialite from "../../img/socialite-ss.png";
-import Tourningon from "../../img/tourningon.png";
-import "../ProductList/ProductList.css";
-import Product from "./Product";
+import React from 'react';
+import algogram from '../../img/algogram.png';
+import coffeshop from '../../img/coffeshop.png';
+import Corporate from '../../img/corporate.png';
+import c19 from '../../img/covid-19 tracker.png';
+import Netflix from '../../img/netflix-ss.png';
+import oshary from '../../img/oshary.png';
+import Ostad from '../../img/ostad-ss.png';
+import RaksFlix from '../../img/raksflix-ss.png';
+import rehashcraft from '../../img/rehashcraft.png';
+import restaurant from '../../img/restaurant.png';
+import Socialite from '../../img/socialite-ss.png';
+import Tourningon from '../../img/tourningon.png';
+import '../ProductList/ProductList.css';
+import Product from './Product';
 
 const ProductList = () => {
   return (

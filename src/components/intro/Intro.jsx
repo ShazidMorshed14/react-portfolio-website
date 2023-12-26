@@ -1,6 +1,6 @@
-import React from "react";
-import "./Intro.css";
-import Me from "../../img/my_img_blk_2.png";
+import React from 'react';
+import Me from '../../img/my_img_blk_2.png';
+import './Intro.css';
 
 const Intro = () => {
   // function handleScroll() {
