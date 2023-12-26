@@ -31,15 +31,13 @@ const Intro = () => {
             <a
               target="_blank"
               rel="noreferrer"
-              href="https://drive.google.com/drive/folders/1ZSIx0n4Rrboa9rqHlRORLrqksG8erWI_?usp=sharing"
-            >
+              href="https://drive.google.com/drive/folders/1ZSIx0n4Rrboa9rqHlRORLrqksG8erWI_?usp=sharing">
               <button className="btn-cv">Download CV</button>
             </a>
             <a
               target="_blank"
               rel="noreferrer"
-              href="https://github.com/ShazidMorshed14"
-            >
+              href="https://github.com/ShazidMorshed14">
               <button className="btn-c">Github</button>
             </a>
           </div>

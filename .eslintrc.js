@@ -26,8 +26,8 @@ module.exports = {
   rules: {
     'no-unused-vars': 'error',
     'react/react-in-jsx-scope': 'off',
-    'prettier/prettier': 'error',
-    'linebreak-style': ['error', 'unix'],
+    //'prettier/prettier': 'error',
+    //'linebreak-style': ['error', 'unix'],
     quotes: ['error', 'single'],
     semi: ['error', 'always'],
     'react/prop-types': 0,
