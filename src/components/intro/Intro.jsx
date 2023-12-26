@@ -11,7 +11,8 @@ const Intro = () => {
   //   });
   // }
 
-  const cv_file_url = 'http://localhost:3000/shazid_morshedul_haque_cv.pdf';
+  const cv_file_url =
+    'https://shazidmorshed.netlify.app/shazid_morshedul_haque_cv.pdf';
 
   const downloadTemplateFile = (url) => {
     fetch(url)
