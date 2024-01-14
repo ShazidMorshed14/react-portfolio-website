@@ -11,6 +11,7 @@ import rehashcraft from '../../img/rehashcraft.png';
 import restaurant from '../../img/restaurant.png';
 import Socialite from '../../img/socialite-ss.png';
 import Tourningon from '../../img/tourningon.png';
+import CasaCaffe from '../../img/casa_caffe.png';
 import '../ProductList/ProductList.css';
 import Product from './Product';
 
@@ -38,6 +39,12 @@ const ProductList = () => {
           src={Ostad}
           link="https://ostad-app-43edb.web.app/"
           title="Learning Platform"
+        />
+        <Product
+          id="2"
+          src={CasaCaffe}
+          link="https://casacaffe.netlify.app/"
+          title="Casa Caffe"
         />
         <Product
           id="2"

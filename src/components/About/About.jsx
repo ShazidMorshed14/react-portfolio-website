@@ -30,7 +30,7 @@ const About = () => {
           <div style={{ margin: '0.5rem 0rem' }}>
             <p className="a-uni">Software Engineer (React and Node js)</p>
             <p>AventraConsultant Ltd.</p>
-            <p style={{ fontSize: 'small' }}>Dec 2021-Mar 2022</p>
+            <p style={{ fontSize: 'small' }}>Dec 2021-Mar 2023</p>
           </div>
         </div>
         <div className="a-education">
